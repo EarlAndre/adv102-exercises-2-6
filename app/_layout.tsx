@@ -10,7 +10,10 @@ export default function RootLayout() {
                 }}
             />
             <Stack.Screen 
-                name="(information)" />
+                name="(information)"
+                options={{
+                    headerShown: false,
+                }} />
             <Stack.Screen 
                 name="settings" 
                 options={{

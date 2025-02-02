@@ -11,6 +11,11 @@ export default function Layout () {
                     title: "Home",
                     tabBarIcon: ({ color }) => 
                         <MaterialIcons size={28} name="alarm-add" color={color} />,
+                        tabBarActiveTintColor: '#f22473',
+                        headerTitleStyle: {
+                            color: '#f22473',
+                            fontWeight: "bold",
+                        }
                 }}
             />
             <Tabs.Screen 
@@ -19,6 +24,11 @@ export default function Layout () {
                     title: "Exercises",
                     tabBarIcon: ({ color }) => 
                         <MaterialIcons size={28} name="9mp" color={color} />,
+                        tabBarActiveTintColor: '#f22473',
+                        headerTitleStyle: {
+                            color: '#f22473',
+                            fontWeight: "bold",
+                        }
                 }}
             />
         </Tabs>
