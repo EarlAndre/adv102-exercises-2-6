@@ -11,9 +11,9 @@ export default function Layout () {
                     title: "Home",
                     tabBarIcon: ({ color }) => 
                         <MaterialIcons size={28} name="alarm-add" color={color} />,
-                        tabBarActiveTintColor: '#f22473',
+                        tabBarActiveTintColor: '#0b5345',
                         headerTitleStyle: {
-                            color: '#f22473',
+                            color: '#0b5345',
                             fontWeight: "bold",
                         }
                 }}
@@ -24,9 +24,9 @@ export default function Layout () {
                     title: "Exercises",
                     tabBarIcon: ({ color }) => 
                         <MaterialIcons size={28} name="9mp" color={color} />,
-                        tabBarActiveTintColor: '#f22473',
+                        tabBarActiveTintColor: '#0b5345',
                         headerTitleStyle: {
-                            color: '#f22473',
+                            color: '#0b5345',
                             fontWeight: "bold",
                         }
                 }}

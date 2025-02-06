@@ -6,7 +6,7 @@ import HTMLView from 'react-native-htmlview';
 export default function Exercise() {
     const exercises = [
         { title: 'Exercises 3', description: '\nCreate log in screen\nLogin screen fields\n\n *Email\n *Password', href: '/exercise3' },
-        { title: 'Exercises 4', description: '\nCreate regster screen\nRegister screen fields\n\n *Image: Allows user to select image\n *Name\n *Email\n *Password', href: '/exercise4' },
+        { title: 'Exercises 4', description: '\nCreate register screen\nRegister screen fields\n\n *Image: Allows user to select image\n *Name\n *Email\n *Password', href: '/exercise4' },
         { title: 'Exercises 5', description: ' ', href: '/exercise5' },
         { title: 'Exercises 6', description: ' ', href: '/exercise6' },
         { title: 'Exercises 7', description: ' ', href: '/exercise7' },
@@ -34,12 +34,12 @@ export default function Exercise() {
 
 const styles = StyleSheet.create({
     scrollView: {
-        backgroundColor: 'pink',
+        backgroundColor: '#16a085',
     },
     container: {
         marginHorizontal: '2.5%',
         padding: 40,
-        backgroundColor: '#f9f9f9',
+        backgroundColor: '#d4efdf',
         borderRadius: 5,
         width: '95%',
         marginTop: 20,
@@ -50,6 +50,6 @@ const styles = StyleSheet.create({
     },
     text1: {
         fontSize: 15,
-        color: '#f22473',
+        color: '#0b5345',
     }
 });
