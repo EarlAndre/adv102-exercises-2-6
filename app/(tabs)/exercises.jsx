@@ -5,7 +5,7 @@ import HTMLView from 'react-native-htmlview';
 
 export default function Exercise() {
     const exercises = [
-        { title: 'Exercises 3', description: '\nCreate log in screen\nLogin screen fields\n\n *Email\n *Password', href: '/exercise3' },
+        { title: 'Exercises 3', description: '\nCreate log in screen\nLogin screen fields\n\n *Email\n *Password', href: 'exercise_main/exercise3' },
         { title: 'Exercises 4', description: '\nCreate register screen\nRegister screen fields\n\n *Image: Allows user to select image\n *Name\n *Email\n *Password', href: '/exercise4' },
         { title: 'Exercises 5', description: ' ', href: '/exercise5' },
         { title: 'Exercises 6', description: ' ', href: '/exercise6' },
