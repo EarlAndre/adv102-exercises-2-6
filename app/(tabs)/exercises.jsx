@@ -6,9 +6,9 @@ import HTMLView from 'react-native-htmlview';
 export default function Exercise() {
     const exercises = [
         { title: 'Exercises 3', description: '\nCreate log in screen\nLogin screen fields\n\n *Email\n *Password', href: 'exercise_main/exercise3' },
-        { title: 'Exercises 4', description: '\nCreate register screen\nRegister screen fields\n\n *Image: Allows user to select image\n *Name\n *Email\n *Password', href: '/exercise4' },
-        { title: 'Exercises 5', description: ' ', href: '/exercise5' },
-        { title: 'Exercises 6', description: ' ', href: '/exercise6' },
+        { title: 'Exercises 4', description: '\nCreate register screen\nRegister screen fields\n\n *Image: Allows user to select image\n *Name\n *Email\n *Password', href: 'exercise_main/exercise4' },
+        { title: 'Exercises 5', description: '\nCreate a register screen and add a title and description to the card in the exercise tab. \nWhen the card is clicked, it should redirect to the register screen.\n\n *Image (Image picker when image selected should display the image selected)\n *Name (Text Input)\n *Email (Text Input)\n *Password (Text Input)\n *Register (Button) ', href: 'exercise_main/exercise5' },
+        { title: 'Exercises 6', description: '\nCreate a simple CRUD using useContext and useReducer', href: 'exercise_main/exercise6' },
         { title: 'Exercises 7', description: ' ', href: '/exercise7' },
         { title: 'Exercises 8', description: ' ', href: '/exercise8' },
         { title: 'Exercises 9', description: ' ', href: '/exercise9' },
