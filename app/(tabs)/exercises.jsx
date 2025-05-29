@@ -9,9 +9,9 @@ export default function Exercise() {
         { title: 'Exercises 4', description: '\nCreate register screen\nRegister screen fields\n\n *Image: Allows user to select image\n *Name\n *Email\n *Password', href: 'exercise_main/exercise4' },
         { title: 'Exercises 5', description: '\nCreate a register screen and add a title and description to the card in the exercise tab. \nWhen the card is clicked, it should redirect to the register screen.\n\n *Image (Image picker when image selected should display the image selected)\n *Name (Text Input)\n *Email (Text Input)\n *Password (Text Input)\n *Register (Button) ', href: 'exercise_main/exercise5' },
         { title: 'Exercises 6', description: '\nCreate a simple CRUD using useContext and useReducer', href: 'exercise_main/exercise6' },
-        { title: 'Exercises 7', description: ' ', href: '/exercise7' },
-        { title: 'Exercises 8', description: ' ', href: '/exercise8' },
-        { title: 'Exercises 9', description: ' ', href: '/exercise9' },
+        { title: 'Exercises 7', description: '\nCreate a simple quiz using the API from Open Trivia Database.', href: 'exercise_main/exercise7' },
+        { title: 'Exercises 8', description: '\nUsing React Hook Form, add appropriate validations for the registration and login page', href: 'exercise_main/exercise8' },
+        { title: 'Exercises 9', description: '\nConnect your React Native app to Firebase. On the registration and login pages, integrate Firebase Authentication. Additionally, use Firebase Storage to allow users to upload a profile image during registration. ', href: 'exercise_main/exercise9' },
     ];
 
     return (
